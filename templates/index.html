@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+
+<h>这是首页</h>
+<ul>现有以下学生：</ul>
+{% for stu in  students %}
+    <li>{{ stu.name }}</li>
+{% endfor %}
+
+
+</body>
+</html>
